@@ -1,8 +1,6 @@
 jQuery-File-Tree
 ================
 
-jQuery-File-Tree is
-
 jQuery File Tree is a configurable, AJAX file browser plugin for jQuery. You can create a customized, fully-interactive file tree with as little as one line of JavaScript code.
 
 Currently, server-side connector scripts are available for PHP, ASP, ASP.NET, JSP, and Lasso. If you’re a developer, you can easily make your own connector to work with your language of choice.
@@ -16,13 +14,13 @@ Creating a File Tree
 
 In it’s simplest form, you can create a file tree using the following code:
 
-$(document).ready( function() {
-    $('#container_id').fileTree({ root: '/some/folder/' }, function(file) {
-        alert(file);
+    $(document).ready( function() {
+        $('#container_id').fileTree({ root: '/some/folder/' }, function(file) {
+            alert(file);
+        });
     });
-});
 
-where #container_id is the ID of an empty DIV element that exists on your page. The file tree will automatically load when your page loads.
+where ```#container_id``` is the ID of an empty DIV element that exists on your page. The file tree will automatically load when your page loads.
 
 Configuring the File Tree
 -------------------------

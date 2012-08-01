@@ -27,16 +27,17 @@ Configuring the File Tree
 
 Parameters are passed as an object to the fileTree() function. Valid options include:
 
-Parameter   Description Default Value
-root    root folder to display  /
-script  location of the serverside AJAX file to use jqueryFileTree.php
-folderEvent event to trigger expand/collapse    click
-expandSpeed Speed at which to expand branches (in milliseconds); use -1 for no animation    500
-collapseSpeed   Speed at which to collapse branches (in milliseconds); use -1 for no animation  500
-expandEasing    Easing function to use on expand    None
-collapseEasing  Easing function to use on collapse  None
-multiFolder Whether or not to limit the browser to one subfolder at a time  true
-loadMessage Message to display while initial tree loads (can be HTML)   Loading…
+    Parameters      Description Default Value
+    root            root folder to display  /
+    script          location of the serverside AJAX file to use jqueryFileTree.php
+    folderEvent     event to trigger expand/collapse    click
+    expandSpeed     Speed at which to expand branches (in milliseconds); use -1 for no animation    500
+    collapseSpeed   Speed at which to collapse branches (in milliseconds); use -1 for no animation  500
+    expandEasing    Easing function to use on expand    None
+    collapseEasing  Easing function to use on collapse  None
+    multiFolder     Whether or not to limit the browser to one subfolder at a time  true
+    loadMessage     Message to display while initial tree loads (can be HTML)   Loading…
+
 To create a file tree with multiple parameters, your code will look something like this:
 
     $(document).ready( function() {
@@ -87,7 +88,6 @@ Lasso by Jason Huck
 Perl by Oleg Burlaca
 Python/Django by Martin Skou
 Ruby by Erik Lax
-If you would like to share a connector that you’ve written for another language, let us know! We’ll be happy to add it to the download for everyone to use!
 
 The connector scripts provided with jQuery File Tree are only designed to read information from a specified root folder. Although this is typically harmless, there exists a potential for malicious individuals to be able to view your entire directory structure by spoofing therootparameter. It is highly recommended that you add some form of check to your connector script to verify the path being scanned is a path that you want to allow visitors to see.
 

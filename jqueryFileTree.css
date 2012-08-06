@@ -26,7 +26,7 @@ UL.jqueryFileTree A:hover {
 }
 
 /* Core Styles */
-.jqueryFileTree LI.directory { background: url(images/directory.png) left top no-repeat; }
+.jqueryFileTree LI.dir { background: url(images/directory.png) left top no-repeat; }
 .jqueryFileTree LI.expanded { background: url(images/folder_open.png) left top no-repeat; }
 .jqueryFileTree LI.file { background: url(images/file.png) left top no-repeat; }
 .jqueryFileTree LI.wait { background: url(images/spinner.gif) left top no-repeat; }
